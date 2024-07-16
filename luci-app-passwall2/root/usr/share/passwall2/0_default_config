@@ -6,7 +6,7 @@ config global
 	option client_proxy '1'
 	option socks_enabled '0'
 	option acl_enable '0'
-	option node 'myshunt'
+	option node 'nil'
 	option direct_dns_protocol 'auto'
 	option direct_dns_query_strategy 'UseIP'
 	option remote_dns_protocol 'tcp'
@@ -16,19 +16,19 @@ config global
 dns.google.com 8.8.8.8'
 	option log_node '1'
 	option loglevel 'error'
-	
+
 config global_haproxy
 	option balancing_enable '0'
 
 config global_delay
 	option auto_on '0'
 	option start_daemon '1'
-	option start_delay '60'
+	option start_delay '30'
 
 config global_forwarding
 	option tcp_no_redir_ports 'disable'
 	option udp_no_redir_ports 'disable'
-	option tcp_redir_ports '22,25,53,143,465,587,853,993,995,80,443'
+	option tcp_redir_ports '1:65535'
 	option udp_redir_ports '1:65535'
 	option accept_icmp '0'
 	option use_nft '0'
@@ -36,12 +36,11 @@ config global_forwarding
 	option ipv6_tproxy '0'
 
 config global_xray
-	option sniffing '1'
-	option route_only '0'
+	option sniffing '0'
+	option fragment '0'
 
 config global_other
 	option auto_detection_time 'tcping'
-	option show_node_info '0'
 
 config global_rules
 	option auto_update '0'
@@ -60,31 +59,13 @@ config global_subscribe
 	list filter_discard_list '剩余流量'
 	list filter_discard_list 'QQ群'
 	list filter_discard_list '官网'
-	
+
 config global_singbox
 	option sniff_override_destination '0'
 	option geoip_path '/usr/share/singbox/geoip.db'
 	option geoip_url 'https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.db'
 	option geosite_path '/usr/share/singbox/geosite.db'
 	option geosite_url 'https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.db'
-
-config nodes 'myshunt'
-	option remarks '分流总节点'
-	option type 'Xray'
-	option protocol '_shunt'
-	option DirectGame '_direct'
-	option ProxyGame '_default'
-	option Direct '_direct'
-	option GooglePlay '_default'
-	option Netflix 'nil'
-	option OpenAI 'nil'
-	option Proxy '_default'
-	option China '_direct'
-	option QUIC '_blackhole'
-	option UDP 'nil'
-	option default_node 'nil'
-	option domainStrategy 'IPOnDemand'
-	option domainMatcher 'hybrid'
 
 config shunt_rules 'DirectGame'
 	option remarks 'DirectGame'
@@ -94,7 +75,6 @@ regexp:\.cm.steampowered.com$
 regexp:\.steamserver.net$
 geosite:category-games@cn
 '
-
 	option ip_list '103.10.124.0/24
 103.10.125.0/24
 103.28.54.0/24
@@ -185,7 +165,7 @@ config shunt_rules 'Netflix'
 	option remarks 'Netflix'
 	option network 'tcp,udp'
 	option domain_list 'geosite:netflix'
-	
+
 config shunt_rules 'OpenAI'
 	option remarks 'OpenAI'
 	option network 'tcp,udp'
@@ -234,3 +214,4 @@ config shunt_rules 'QUIC'
 config shunt_rules 'UDP'
 	option remarks 'UDP'
 	option network 'udp'
+
