@@ -55,7 +55,7 @@ o:value("same", translate("Same as Global Server"))
 for _, key in pairs(key_table) do
 	o:value(key, server_table[key])
 end
-o.default = "same"
+o.default = "nil"
 o.rmempty = false
 
 o = s:option(Flag, "netflix_proxy", translate("External Proxy Mode"))
@@ -82,7 +82,7 @@ o:value("gfw", translate("GFW List Mode"))
 o:value("router", translate("IP Route Mode"))
 o:value("all", translate("Global Mode"))
 o:value("oversea", translate("Oversea Mode"))
-o.default = all
+o.default = gfw
 
 o = s:option(ListValue, "dports", translate("Proxy Ports"))
 o:value("1", translate("All Ports"))
@@ -169,4 +169,3 @@ if is_finded("chinadns-ng") then
 end
 
 return m
-
