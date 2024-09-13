@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-"Language: pl\n"
+"Language: vi\n"
 "Last-Translator: alextuldi - From OpenWrt forum\n"
 
 msgid "SMS Messages"
