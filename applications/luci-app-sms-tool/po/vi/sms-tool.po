@@ -1,288 +1,293 @@
-﻿msgid ""
+msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
 "Language: pl\n"
-"Last-Translator: Rafał Wabik (IceG) - From eko.one.pl forum\n"
+"Last-Translator: alextuldi - From OpenWrt forum\n"
 
 msgid "SMS Messages"
-msgstr "Wiadomości SMS"
+msgstr "Tin nhắn SMS"
 
 msgid "Received Messages"
-msgstr "Odebrane wiadomości"
+msgstr "Tin nhắn đã nhận"
 
 msgid "Send Messages"
-msgstr "Wysyłanie wiadomości"
+msgstr "Gửi tin nhắn"
 
 msgid "USSD"
 msgstr "USSD"
 
 msgid "From"
-msgstr "Nadawca"
+msgstr "Từ ai"
 
 msgid "Received"
-msgstr "Odebrano"
+msgstr "Đã nhận"
 
 msgid "Message"
-msgstr "Wiadomość"
+msgstr "Tin nhắn"
 
 msgid "Configuration"
-msgstr "Ustawienia"
+msgstr "Cài đặt"
 
 msgid "Sample codes"
-msgstr "Przykładowe kody"
+msgstr "Ví dụ về mã"
 
 msgid "Sending USSD codes"
-msgstr "Wysyłanie kodów USSD"
+msgstr "Gửi mã USSD"
 
 msgid "Please enter phone number"
-msgstr "Proszę podać numer telefonu"
+msgstr "Vui lòng nhập số điện thoại của bạn"
 
 msgid "Please correct phone number"
-msgstr "Proszę poprawić numer telefonu"
+msgstr "Kiểm tra số điện thoại của bạn"
 
 msgid "Please enter a message text"
-msgstr "Proszę podać treść wiadomości"
+msgstr "Vui lòng nhập nội dung tin nhắn"
 
 msgid "Please select the message(s) to be deleted"
-msgstr "Proszę wybrać wiadomość(-ci) do usunięcia"
+msgstr "Vui lòng chọn (các) tin nhắn cần xóa"
 
 msgid "Reply"
-msgstr "Odpowiedź"
+msgstr "Trả lời"
 
 msgid "SMS sent sucessfully"
-msgstr "SMS został wysłany"
+msgstr "Đã gửi SMS thành công"
 
 msgid "Please enter a USSD code"
-msgstr "Proszę podać kod do wysłania"
+msgstr "Vui lòng nhập mã USSD"
 
 msgid "Delete selected message(s)?"
-msgstr "Usunąć wybraną(-e) wiadomość(-ci)?"
+msgstr "Xóa tin nhắn đã chọn?"
 
 msgid "Delete all the messages?"
-msgstr "Usunąć wszystkie wiadomości?"
+msgstr "Xóa tất cả tin nhắn?"
 
 msgid "Configuration sms-tool"
-msgstr "Konfiguracja sms-tool"
+msgstr "cài đặt công cụ sms"
 
 msgid "Configuration panel for sms_tool and gui application."
-msgstr "Panel ustawień dla aplikacji sms_tool oraz dla interfejsu użytkownika."
+msgstr "Bảng cài đặt cho sms_tool và GUI ứng dụng."
 
 msgid "Device"
-msgstr "Urządzenie"
+msgstr "Thiết bị"
 
-msgid "Web UI for handling messages via sms_tool."
-msgstr "Interfejs użytkownika dla sms_tool do obsługi wiadomości SMS."
+msgid "Web UI for receiveling messages via sms_tool. More information about the sms-tool on the"
+msgstr "Giao diện web nhận tin nhắn qua sms_tool. Đọc thêm về sms-tool trên trang web"
 
-msgid "Web UI for handling USSD codes via sms_tool."
-msgstr "Interfejs użytkownika dla sms_tool do obsługi kodów USSD."
+msgid "Web UI for sending messages via sms_tool. More information about the sms-tool on the"
+msgstr "Giao diện web gửi tin nhắn qua sms_tool. Đọc thêm về sms-tool trên trang web"
+
+msgid "Web UI for handling USSD codes via sms_tool. More information about the sms-tool on the"
+msgstr "Giao diện web xử lý mã USSD qua sms_tool. Đọc thêm về sms-tool trên trang web"
+
+msgid "eko.one.pl forum"
+msgstr "diễn đàn eko.one.pl"
 
 msgid "SIM card"
-msgstr "Karta SIM"
+msgstr "thẻ SIM"
 
 msgid "Modem memory"
-msgstr "Pamięć modemu"
+msgstr "Bộ nhớ modem"
 
 msgid "Messages store in"
-msgstr "Miejsce przechowywania wiadomości"
+msgstr "Tin nhắn lưu trữ trong"
 
 msgid "Messages (Inbox / Maximum)"
-msgstr "Wiadomości (Odebrane / Maksymalnie)"
+msgstr "Tin nhắn (Hộp thư đến/Tối đa)"
 
 msgid "Delete Selected"
-msgstr "Usuń wybraną"
+msgstr "Xóa mục đã chọn"
 
 msgid "Delete message(s)"
-msgstr "Usuń wiadomość(-ci)"
+msgstr "Xóa tin nhắn"
 
 msgid "Delete All"
-msgstr "Usuń wszystkie"
+msgstr "Xóa tất cả"
 
 msgid "USSD Codes"
-msgstr "Kody USSD"
+msgstr "Mã USSD"
 
 msgid "Send to"
-msgstr "Wyślij do"
+msgstr "Gửi đến"
 
 msgid "Message text"
-msgstr "Treść wiadomości"
+msgstr "Nội dung tin nhắn"
 
 msgid "Send Message"
-msgstr "Wyślij SMS"
+msgstr "Gửi tin nhắn"
 
 msgid "Code to send"
-msgstr "Kod do wysłania"
+msgstr "Mã để gửi"
 
 msgid "Send Code"
-msgstr "Wyślij kod"
+msgstr "Gửi mã"
 
 msgid "SMS Settings"
-msgstr "Ustawienia dla wiadomości SMS"
+msgstr "Cài đặt SMS"
 
 msgid "USSD Codes Settings"
-msgstr "Ustawienia dla kodów USSD"
+msgstr "Cài đặt mã USSD"
 
 msgid "SMS Reading Port"
-msgstr "Port do odczytu SMS"
+msgstr "Cổng đọc tin nhắn SMS"
 
 msgid "SMS Sending Port"
-msgstr "Port do wysyłania SMS"
+msgstr "Cổng gửi tin nhắn SMS"
 
 msgid "USSD Sending Port"
-msgstr "Port do wysyłania kodów USSD"
+msgstr "Cổng gửi USSD"
 
 msgid "Add Prefix to Phone Number"
-msgstr "Dodaj prefiks do numeru telefonu"
+msgstr "Thêm tiền tố vào số điện thoại"
 
 msgid "Automatically add prefix to the phone number field."
-msgstr "Automatycznie uzupełnij pole numeru telefonu o prefiks."
+msgstr "Tự động thêm tiền tố vào trường số điện thoại."
 
 msgid "Prefix Number"
-msgstr "Numer prefiks"
+msgstr "Tiền tố số"
 
 msgid "PHONE_NUMBER"
-msgstr "48NumerTelefonu"
+msgstr "SỐ ĐIỆN THOẠI"
 
 msgid "Refresh SMS"
-msgstr "Odśwież"
+msgstr "Làm mới tin nhắn SMS"
 
 msgid "Sending USSD Code in plain text"
-msgstr "Wysyłaj kod USSD jawnym tekstem"
+msgstr "Gửi mã USSD dưới dạng văn bản thuần túy"
 
 msgid "Receive message without PDU decoding"
-msgstr "Odbierz wiadomość bez dekodowania jej jako PDU"
+msgstr "Nhận tin nhắn mà không cần giải mã PDU"
 
 msgid "Send the USSD code in plain text. Command is not being coded to the PDU."
-msgstr "Wysyła kod USSD jawnym tekstem. Polecenie nie jest dekodowane na PDU."
+msgstr "Gửi mã USSD dưới dạng văn bản thuần túy. Lệnh không được mã hóa vào PDU."
 
 msgid "Receive and display the message without decoding it as a PDU."
-msgstr "Odebrana wiadomość wyświetlana jest bez dekodowania jej jako PDU."
+msgstr "Nhận và hiển thị tin nhắn mà không giải mã nó thành PDU."
 
 msgid "Explanation of number and prefix"
-msgstr "Wyjaśnienie dot. numeru i prefiksu"
+msgstr "Giải thích về số và tiền tố"
 
 msgid "In the tab for sending SMSes, show an explanation of the prefix and the correct phone number."
-msgstr "W zakładce umożliwiającej wysyłanie SMS-ów pokaż wyjaśnienie dotyczące prefiksu i poprawnego numeru telefonu."
+msgstr "Trong tab gửi tin nhắn SMS, hãy hiển thị giải thích về tiền tố và số điện thoại chính xác."
 
 msgid "The phone number should be preceded by the country prefix (for Poland it is 48, without '+'). If the number is 5, 4 or 3 characters, it is treated as 'short' and should not be preceded by a country prefix."
-msgstr "Numer telefonu należy poprzedzić prefiksem kraju (dla Polski jest to 48, bez znaku '+'). Jeżeli numer jest 5, 4 lub 3 znakowy to jest on traktowany jako 'krótki' i nie należy go poprzedzać prefiksem kraju."
+msgstr "Số điện thoại phải được đặt trước bằng mã quốc gia (đối với Ba Lan là 48, không có dấu '+'). Nếu số có 5, 4 hoặc 3 ký tự, số đó được coi là 'ngắn' và không được đặt trước bằng mã quốc gia."
 
 msgid "The phone number should be preceded by the country prefix (for Poland it is 48, without +). If the number is 5, 4 or 3 characters, it is treated as.. short and should not be preceded by a country prefix."
-msgstr "Numer telefonu należy poprzedzić prefiksem kraju (dla Polski jest to 48, bez znaku +). Jeżeli numer jest 5, 4 lub 3 znakowy to jest on traktowany jako krótki i nie należy go poprzedzać prefiksem kraju."
+msgstr "Số điện thoại phải được đặt trước bằng tiền tố quốc gia (đối với Ba Lan là 48, không có dấu +). Nếu số có 5, 4 hoặc 3 ký tự, số đó được coi là.. ngắn và không được đặt trước bằng tiền tố quốc gia."
 
 msgid "Each line must have the following format: 'Contact name;Phone number'. Save to file '/etc/config/phonebook.user'."
-msgstr "Każda linijka powinna mieć następujący format: 'Nazwa kontaktu;Numer telefonu'. Dla wygody kontakty użytkownika zapisywane są w pliku '/etc/config/phonebook.user'."
+msgstr "Mỗi dòng phải có định dạng sau: 'Tên liên lạc; Số điện thoại'. Lưu vào tệp '/etc/config/phonebook.user'."
 
 msgid "User Phonebook"
-msgstr "Kontakty użytkownika"
+msgstr "Danh bạ người dùng"
 
 msgid "User USSD Codes"
-msgstr "Kody USSD użytkownika"
+msgstr "Mã USSD của người dùng"
 
 msgid "Each line must have the following format: 'Code name;Code'. Save to file '/etc/config/ussd.user'."
-msgstr "Każda linijka powinna mieć następujący format: 'Etykieta kodu;Kod'. Dla wygody kody użytkownika zapisywane są w pliku '/etc/config/ussd.user'."
+msgstr "Mỗi dòng phải có định dạng sau: 'Tên mã; Mã'. Lưu vào tệp '/etc/config/ussd.user'."
 
 msgid "Notification Settings"
-msgstr "Ustawienia powiadomień"
+msgstr "Cài đặt thông báo"
 
 msgid "The LED informs about a new message. Before activating this function, please config and save the SMS reading port, time to check SMS inbox and select the notification LED."
-msgstr "Powiadomienie diodą o nowej wiadomości. Przed uruchomieniem tej funkcji proszę ustawić port odczytu wiadomości, czas sprawdzania skrzynki odbiorczej oraz wybrać diodę powiadomień."
+msgstr "Đèn LED thông báo cho bạn về một tin nhắn mới. Trước khi kích hoạt chức năng này, vui lòng định cấu hình và lưu cổng đọc SMS, thời gian kiểm tra SMS đến và chọn chỉ báo thông báo."
 
 msgid "Check inbox every minute(s)"
-msgstr "Sprawdzaj skrzynkę odbiorczą co minut(-y)"
+msgstr "Kiểm tra hộp thư đến mỗi phút"
 
 msgid "Specify how many minutes you want your inbox to be checked."
-msgstr "Podaj co ile minut ma być sprawdzana skrzynka odbiorcza w poszukiwaniu nowych wiadomości."
+msgstr "Chỉ định số phút bạn muốn hộp thư đến của mình được kiểm tra."
 
 msgid "Notification LED"
-msgstr "Dioda powiadomień"
+msgstr "Đèn LED thông báo"
 
 msgid "Select the notification LED."
-msgstr "Wybierz diodę powiadomień."
+msgstr "Chọn đèn LED thông báo."
 
 msgid "Notify new messages"
-msgstr "Powiadomienie o nowych wiadomościach"
+msgstr "Thông báo tin nhắn mới"
 
 msgid "Turn on the LED for seconds(s)"
-msgstr "Włącz diodę na sekund(-y)"
+msgstr "Thông báo tin nhắn mới"
 
 msgid "Turn off the LED for seconds(s)"
-msgstr "Wyłącz diodę na sekund(-y)"
+msgstr "Tắt đèn LED trong vài giây"
 
 msgid "Specify for how long the LED should be on."
-msgstr "Podaj przez jaki czas dioda ma być włączona."
+msgstr "Chỉ định thời gian đèn LED sẽ sáng."
 
 msgid "Specify for how long the LED should be off."
-msgstr "Podaj przez jaki czas dioda ma być wyłączona."
+msgstr "Chỉ định thời gian đèn LED sẽ tắt."
 
 msgid "Merge split messages"
-msgstr "Połącz podzielone wiadomości"
+msgstr "Hợp nhất các tin nhắn đã chia"
 
 msgid "Checking this option will make it easier to read the messages, but it will cause a discrepancy in the number of messages shown and received."
-msgstr "Podzielone wiadomości zostaną złączone. Zaznaczenie tej opcji ułatwi czytanie SMS-ów, ale spowoduje niezgodność w ilości pokazanych, odebranych wiadomości."
+msgstr "Chọn tùy chọn này sẽ giúp bạn đọc tin nhắn dễ hơn, nhưng sẽ gây ra sự khác biệt về số lượng tin nhắn hiển thị và tin nhắn đã nhận."
 
 msgid "Message storage area"
-msgstr "Miejsce przechowywania wiadomości"
+msgstr "Khu vực lưu trữ tin nhắn"
 
 msgid "Messages are stored in a specific location (for example, on the SIM card or modem memory), but other areas may also be available depending on the type of device."
-msgstr "Wiadomości przechowywane są w określonym miejscu (np. na karcie SIM lub pamięci modemu), ale w zależności od typu urządzenia mogą być dostępne także inne obszary."
+msgstr "Tin nhắn được lưu trữ ở một vị trí cụ thể (ví dụ: trên thẻ SIM hoặc bộ nhớ modem), nhưng các vị trí khác cũng có thể khả dụng tùy thuộc vào loại thiết bị."
 
 msgid "AT Commands"
-msgstr "Polecenia AT"
+msgstr "Lệnh AT"
 
-msgid "Web UI for handling AT commands via sms_tool."
-msgstr "Interfejs użytkownika dla sms_tool do obsługi poleceń AT."
+msgid "Web UI for handling AT commands via sms_tool. More information about the sms-tool on the"
+msgstr "Giao diện người dùng web để xử lý lệnh AT qua sms_tool. Thông tin thêm về sms-tool trên"
 
 msgid "Sending commands to modem"
-msgstr "Wysyłanie poleceń do modemu"
+msgstr "Gửi lệnh đến modem"
 
 msgid "User AT Commands"
-msgstr "Polecenia AT użytkownika"
+msgstr "Lệnh AT của người dùng"
 
 msgid "Command to send"
-msgstr "Polecenie do wysłania"
+msgstr "Lệnh gửi"
 
 msgid "Please enter a AT Command"
-msgstr "Proszę podać polecenie AT do wysłania"
+msgstr "Vui lòng nhập lệnh AT"
 
 msgid "AT Commands Sending Port"
-msgstr "Port do wysyłania poleceń AT"
+msgstr "Cổng gửi lệnh AT"
 
 msgid "Send Command"
-msgstr "Wyślij polecenie"
+msgstr "Gửi lệnh"
 
 msgid "AT Commands Settings"
-msgstr "Ustawienia dla poleceń AT"
+msgstr "Cài đặt lệnh AT"
 
 msgid "Each line must have the following format: 'AT Command name;AT Command'. Save to file '/etc/config/atcmds.user'."
-msgstr "Każda linijka powinna mieć następujący format: 'Etykieta polecenia;polecenie AT'. Dla wygody polecenia użytkownika zapisywane są w pliku '/etc/config/atcmds.user'."
+msgstr "Mỗi dòng phải có định dạng sau: 'Tên lệnh AT; Lệnh AT'. Lưu vào tệp '/etc/config/atcmds.user'."
 
 msgid "Restart the inbox checking process every"
-msgstr "Uruchom proces ponownie po"
+msgstr "Khởi động lại quá trình kiểm tra hộp thư đến mỗi"
 
 msgid "The process will restart at the selected time interval. This will eliminate the delay in checking your inbox."
-msgstr "Proces zostanie uruchomiony ponownie po wybranym przez użytkownika czasie. Pozwoli to wyeliminować opóźnienie w sprawdzaniu skrzynki odbiorczej."
+msgstr "Quá trình sẽ khởi động lại theo khoảng thời gian đã chọn. Điều này sẽ loại bỏ sự chậm trễ trong việc kiểm tra hộp thư đến của bạn."
 
 msgid "4h"
-msgstr "4 godz."
+msgstr "4 giờ."
 
 msgid "6h"
-msgstr "6 godz."
+msgstr "6 giờ."
 
 msgid "8h"
-msgstr "8 godz."
+msgstr "8 giờ."
 
 msgid "12h"
-msgstr "12 godz."
+msgstr "12 giờ."
 
 msgid "The diode is dedicated only to these notifications"
-msgstr "Dioda jest dedykowana tylko tym powiadomieniom"
+msgstr "Đèn LED chỉ dành cho những thông báo này"
 
 msgid "Select 'No' in case the router has only one LED or if the LED is multi-tasking."
-msgstr "Wybierz 'Nie' w przypadku, kiedy router ma tylko jedną diodę lub gdy dioda obsługuje wiele zadań."
+msgstr "Chọn "Không" nếu chỉ có một chỉ báo trên bộ định tuyến hoặc nếu chỉ báo này đang hoạt động đa nhiệm."
 
 msgid "No"
-msgstr "Nie"
+msgstr "KHÔNG"
 
 msgid "Yes"
-msgstr "Tak"
-
+msgstr "Đúng"
