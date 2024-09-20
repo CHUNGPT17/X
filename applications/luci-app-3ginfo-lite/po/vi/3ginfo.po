@@ -2,73 +2,73 @@ msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
 msgid "Information about 3G/4G/5G connection"
-msgstr "Informazioni sullo stato della connessione 3G/4G/5G"
+msgstr "Thông tin trạng thái kết nối 3G/4G/5G"
 
 msgid "More information about the 3ginfo on the %seko.one.pl forum%s."
-msgstr "Maggiori informazioni su 3ginfo su %sforum eko.one.pl%s."
+msgstr "Thông tin thêm về 3ginfo trên %sforum eko.one.pl%s."
 
 msgid "eko.one.pl forum"
-msgstr "forum eko.one.pl"
+msgstr "diễn đàn eko.one.pl"
 
 msgid "Details"
-msgstr "Dettagli"
+msgstr "Chi tiết"
 
 msgid "USB debug information"
-msgstr "Debug della porta USB"
+msgstr "Thông tin gỡ lỗi USB"
 
 msgid "Configuration"
-msgstr "Configurazione"
+msgstr "Cấu hình"
 
 msgid "General Information"
-msgstr "Informazione Generale"
+msgstr "Thông tin chung"
 
 msgid "Modem Information"
-msgstr "Informazioni sul modem"
+msgstr "Thông tin modem"
 
 msgid "Cell / Signal Information"
-msgstr "Informazioni sulla rete / segnale"
+msgstr "Thông tin mạng/tín hiệu"
 
 msgid "Technology"
-msgstr "Tecnologia"
+msgstr "Công nghệ"
 
 msgid "Operator"
-msgstr "Operatore"
+msgstr "Người điều hành"
 
 msgid "Signal strength"
-msgstr "La potenza del segnale"
+msgstr "Cường độ tín hiệu"
 
 msgid "Connection statistics"
-msgstr "Statistiche di connessione"
+msgstr "Thống kê kết nối"
 
 msgid "Modem type"
-msgstr "Tipo modem"
+msgstr "Loại modem"
 
 msgid "Additional information"
-msgstr "Informazioni aggiuntive"
+msgstr "Thông tin bổ sung"
 
 msgid "Revision / Firmware"
-msgstr "Revisione / Versione firmware"
+msgstr "Phiên bản/sửa đổi phần sụn"
 
 msgid "IP adress / Communication Port"
-msgstr "Indirizzo IP / Porta per la comunicazione"
+msgstr "Địa chỉ IP / Cổng giao tiếp"
 
 msgid "Chip Temperature"
-msgstr "Temperatura del sistema"
+msgstr "Nhiệt độ chip"
 
 msgid "Configuration 3ginfo-lite"
-msgstr "Configurazione 3ginfo-lite"
+msgstr "cấu hình 3ginfo-lite"
 
 msgid "Configuration panel for the 3ginfo-lite application."
-msgstr "Pannello di configurazione per l'applicazione 3ginfo-lite."
+msgstr "Bảng cấu hình cho ứng dụng 3ginfo-lite."
 
 msgid "Network"
-msgstr "Rete"
+msgstr "Mạng"
 
 msgid "IP adress / Port for communication with the modem"
-msgstr "Indirizzo IP / Porta per la comunicazione con il modem"
+msgstr "Địa chỉ IP / Cổng giao tiếp với modem"
 
 msgid "Protocol"
-msgstr "Protocollo"
+msgstr "Giao thức"
 
 msgid ""
 "Select the appropriate settings. <br /> <br />Traditional "
@@ -76,91 +76,91 @@ msgid ""
 "ports.<br /> <br />HiLink modem. <br /> Enter the IP address "
 "192.168.X.X under which the modem is available."
 msgstr ""
-"Wybierz odpowiednie ustawienia. <br /> <br />Tradycyjny "
-"modem. <br /> Wybierz jeden z dostępnych portów "
-"ttyUSBX.<br /> <br />Modem typu HiLink. <br /> Wprowadź adres IP "
-"192.168.X.X pod którym dostępny jest modem."
+"Chọn cài đặt phù hợp. <br /> <br />Modem "
+"truyền thống. <br /> Chọn một trong các cổng ttyUSBX "
+"có sẵn.<br /> <br />Modem HiLink. <br /> Nhập địa chỉ IP "
+"192.168.X.X mà modem có sẵn."
 
 msgid "Very good"
-msgstr "Bardzo dobry"
+msgstr "Rất tốt"
 
 msgid "Good"
-msgstr "Dobry"
+msgstr "Tốt"
 
 msgid "Weak"
-msgstr "Słaby"
+msgstr ""Yếu"
 
 msgid "Very weak"
-msgstr "Bardzo słaby"
+msgstr "Rất yếu"
 
 msgid "Excellent"
-msgstr "Doskonały"
+msgstr "Xuất sắc"
 
 msgid "Good"
-msgstr "Dobry"
+msgstr "Tốt"
 
 msgid "Mid cell"
-msgstr "Średni zasięg"
+msgstr "Phạm vi trung bình"
 
 msgid "Cell edge"
-msgstr "Na krawędzi zasięgu"
+msgstr "Ở ngoài phạm vi"
 
 msgid "SIM status"
-msgstr "Status karty SIM"
+msgstr "Trạng thái SIM"
 
 msgid "Not registered"
-msgstr "Nie zalogowana do sieci"
+msgstr "Chưa đăng nhập vào mạng"
 
 msgid "Registered"
-msgstr "Zalogowana do sieci"
+msgstr "Đã đăng nhập vào mạng"
 
 msgid "Registered (roaming)"
-msgstr "Zalogowana do sieci (roaming)"
+msgstr "Đã đăng nhập vào mạng (chuyển vùng)"
 
 msgid "Searching.."
-msgstr "Wyszukiwanie.."
+msgstr "Tìm kiếm.."
 
 msgid "Registering denied"
-msgstr "Odmowa zalogowana do sieci"
+msgstr "Từ chối đăng nhập vào mạng"
 
 msgid "Waiting to read data from the modem..."
-msgstr "Oczekiwanie na odczyt danych z modemu..."
+msgstr "Đang chờ đọc dữ liệu từ modem..."
 
 msgid "Waiting for connection data..."
-msgstr "Oczekiwanie na dane połączenia..."
+msgstr "Đang chờ dữ liệu kết nối..."
 
 msgid "BTS Search"
-msgstr "Lokalizacja stacji bazowej"
+msgstr "Vị trí trạm cơ sở"
 
 msgid "Search"
-msgstr "Szukaj"
+msgstr "Tìm kiếm"
 
 msgid "Search BTS using Cell ID"
-msgstr "Wyszukaj BTS po Cell ID"
+msgstr "Tìm kiếm BTS bằng Cell ID"
 
 msgid "Hint: To set up a BTS search engine, all you have to do is select the dedicated website for your location."
-msgstr "Wskazówka: Aby skonfigurować wyszukiwarkę BTS, wystarczy wybrać stronę odpowiednią dla swojej lokalizacji."
+msgstr "Gợi ý: Để định cấu hình công cụ tìm kiếm BTS, chỉ cần chọn trang web phù hợp với vị trí của bạn."
 
 msgid "BTS search settings"
-msgstr "Ustawienia wyszukiwania stacji bazowej"
+msgstr "Cài đặt tìm kiếm trạm gốc"
 
 msgid "Website to search for BTS"
-msgstr "Strona do wyszukiwania BTS"
+msgstr "Trang tìm kiếm BTS"
 
 msgid "Select a website for searching."
-msgstr "Wybierz stronę internetową służącą do wyszukiwania."
+msgstr "Chọn một trang web tìm kiếm."
 
 msgid "SIM Slot"
-msgstr "Slot SIM"
+msgstr "Khe cắm SIM"
 
 msgid "Customizing the appearance of the package"
-msgstr "Dostosowanie wyglądu pakietu"
+msgstr "Tùy chỉnh giao diện của gói"
 
 msgid "Hint: The settings below allow you to customize the appearance of the progress bars."
-msgstr "Podpowiedź: Poniższe ustawienia pozwalają dostosować wygląd pasków postępu."
+msgstr "Gợi ý: Các cài đặt sau cho phép bạn tùy chỉnh giao diện của thanh tiến trình."
 
 msgid "The width of the progress bars"
-msgstr "Szerokość pasków postępu"
+msgstr "Chiều rộng của thanh tiến trình"
 
 msgid "Select the width of the progress bars."
-msgstr "Wybierz szerokość pasków postępu."
+msgstr "Chọn độ rộng của thanh tiến trình."
