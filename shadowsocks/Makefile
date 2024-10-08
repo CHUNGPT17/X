@@ -46,7 +46,7 @@ define Package/shadowsocks-libev
 	URL:=https://github.com/shadowsocks/shadowsocks-libev
 	DEPENDS:=+libpthread \
 		+!SHADOWSOCKS_WITH_EV:libev \
-		+!SHADOWSOCKS_WITH_PCRE:libpcre2 \
+		+!SHADOWSOCKS_WITH_PCRE2:libpcre2 \
 		+!SHADOWSOCKS_WITH_CARES:libcares \
 		+!SHADOWSOCKS_WITH_SODIUM:libsodium \
 		+!SHADOWSOCKS_WITH_MBEDTLS:libmbedtls
