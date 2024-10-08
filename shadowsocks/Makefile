@@ -27,7 +27,7 @@ PKG_INSTALL:=1
 PKG_FIXUP:=autoreconf
 PKG_USE_MIPS16:=0
 PKG_BUILD_PARALLEL:=1
-PKG_BUILD_DEPENDS:=c-ares libev libsodium mbedtls pcre
+PKG_BUILD_DEPENDS:=c-ares libev libsodium mbedtls pcre2
 
 PKG_CONFIG_DEPENDS:= \
 	CONFIG_SHADOWSOCKS_STATIC_LINK \
@@ -46,7 +46,7 @@ define Package/shadowsocks-libev
 	URL:=https://github.com/shadowsocks/shadowsocks-libev
 	DEPENDS:=+libpthread \
 		+!SHADOWSOCKS_WITH_EV:libev \
-		+!SHADOWSOCKS_WITH_PCRE:libpcre2 \
+		+!SHADOWSOCKS_WITH_PCRE:libpcre \
 		+!SHADOWSOCKS_WITH_CARES:libcares \
 		+!SHADOWSOCKS_WITH_SODIUM:libsodium \
 		+!SHADOWSOCKS_WITH_MBEDTLS:libmbedtls
@@ -68,7 +68,7 @@ menu "Shadowsocks-libev Compile Configuration"
 				default y
 
 			config SHADOWSOCKS_WITH_PCRE
-				bool "static link libpcre2."
+				bool "static link libpcre."
 				default y
 
 			config SHADOWSOCKS_WITH_CARES
