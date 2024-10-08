@@ -68,7 +68,7 @@ menu "Shadowsocks-libev Compile Configuration"
 				default y
 
 			config SHADOWSOCKS_WITH_PCRE
-				bool "static link libpcre."
+				bool "static link libpcre2."
 				default y
 
 			config SHADOWSOCKS_WITH_CARES
