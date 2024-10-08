@@ -32,7 +32,7 @@ PKG_BUILD_DEPENDS:=c-ares libev libsodium mbedtls pcre2
 PKG_CONFIG_DEPENDS:= \
 	CONFIG_SHADOWSOCKS_STATIC_LINK \
 	CONFIG_SHADOWSOCKS_WITH_EV \
-	CONFIG_SHADOWSOCKS_WITH_PCRE \
+	CONFIG_SHADOWSOCKS_WITH_PCRE2 \
 	CONFIG_SHADOWSOCKS_WITH_CARES \
 	CONFIG_SHADOWSOCKS_WITH_SODIUM \
 	CONFIG_SHADOWSOCKS_WITH_MBEDTLS
@@ -67,7 +67,7 @@ menu "Shadowsocks-libev Compile Configuration"
 				bool "static link libev."
 				default y
 
-			config SHADOWSOCKS_WITH_PCRE
+			config SHADOWSOCKS_WITH_PCRE2
 				bool "static link libpcre2."
 				default y
 
