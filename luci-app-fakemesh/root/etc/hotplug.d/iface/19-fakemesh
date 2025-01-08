@@ -13,7 +13,7 @@ role="$(uci get fakemesh.default.role)"
 
 #change hostname if mesh enabled
 if [ "$enabled" = "1" ]; then
-	old_hostname="$(uci get system.@system[0].hostname || echo X-WRT)"
+	old_hostname="$(uci get system.@system[0].hostname || echo OpenWrt)"
 	new_hostname="$(uci get network.meshx0.hostname || echo $old_hostname)"
 	[ "$old_hostname" != "$new_hostname" ] && {
 		uci set system.@system[0].hostname="$new_hostname"
