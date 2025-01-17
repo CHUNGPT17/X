@@ -50,7 +50,7 @@ config PACKAGE_$(PKG_NAME)_Iptables_Transparent_Proxy
 	select PACKAGE_dnsmasq_full_ipset
 	select PACKAGE_ipset
 	select PACKAGE_iptables
-	select PACKAGE_ip6tables-zz-legacy
+	select PACKAGE_iptables-nft
 	select PACKAGE_iptables-zz-legacy
 	select PACKAGE_iptables-mod-conntrack-extra
 	select PACKAGE_iptables-mod-iprange
