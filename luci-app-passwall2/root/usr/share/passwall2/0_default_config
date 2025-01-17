@@ -9,13 +9,16 @@ config global
 	option node 'nil'
 	option direct_dns_protocol 'auto'
 	option direct_dns_query_strategy 'UseIP'
-	option remote_dns_protocol 'tcp'
-	option remote_dns '1.1.1.1'
-	option remote_dns_query_strategy 'UseIPv4'
+	option remote_dns_protocol 'doh'
+	option remote_dns_query_strategy 'UseIP'
 	option dns_hosts 'cloudflare-dns.com 1.1.1.1
 dns.google.com 8.8.8.8'
 	option log_node '1'
 	option loglevel 'error'
+	option remote_dns_doh 'https://8.8.8.8/dns-query'
+	option remote_dns_detour 'remote'
+	option remote_fakedns '1'
+	option write_ipset_direct '0'
 
 config global_haproxy
 	option balancing_enable '0'
@@ -23,7 +26,7 @@ config global_haproxy
 config global_delay
 	option auto_on '0'
 	option start_daemon '1'
-	option start_delay '30'
+	option start_delay '10'
 
 config global_forwarding
 	option tcp_no_redir_ports 'disable'
